@@ -1,0 +1,65 @@
+/* UploadPDF.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .upload-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .upload-container form {
+    width: 100%;
+  }
+  
+  .upload-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .upload-container input[type="text"],
+  .upload-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .upload-container input[type="file"] {
+    padding: 5px;
+  }
+  
+  .upload-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .upload-container button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .upload-container p {
+    margin-top: 20px;
+    color: #333;
+  }
+  
